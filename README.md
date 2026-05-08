@@ -49,24 +49,6 @@ myproject_DWH/
 
 ---
 
-## Data Sources
-
-### CRM
-| File | Description |
-|------|-------------|
-| `cust_info.csv` | Customer ID, key, name, marital status, gender, create date |
-| `prd_info.csv` | Product ID, key, name, cost, product line, validity dates |
-| `sales_details.csv` | Order number, product/customer keys, order/ship/due dates, amount, quantity, price |
-
-### ERP
-| File | Description |
-|------|-------------|
-| `CUST_AZ12.csv` | Supplementary customer attributes: birthdate, gender |
-| `LOC_A101.csv` | Customer country/location codes |
-| `PX_CAT_G1V2.csv` | Product category and subcategory hierarchy |
-
----
-
 ## Gold Layer — Dimensional Model
 
 ```
